@@ -26,7 +26,7 @@ public class CustomCondition implements Condition {
         list.stream().forEach(System.out::println);
         Arrays.asList(array).stream().forEach(System.out::println);
         System.out.println(isEnable);
-        System.out.println("----------------------------");
+        System.out.println("------------------------------------------");
 
         return isEnable;
     }

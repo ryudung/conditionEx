@@ -41,7 +41,7 @@ public class PhoneExistCondition implements Condition {
         } catch (ClassNotFoundException | NoSuchFieldException | IllegalAccessException | InstantiationException e) {
             e.printStackTrace();
         }
-        System.out.println("----------------------------");
+        System.out.println("------------------------------------------");
         return Boolean.parseBoolean(env.getProperty("phone.enable"));
     }
 }
